@@ -1,0 +1,13 @@
+@import url(global.css);
+@import url(tipografia.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(home.css);
+
+@import url(selecionar/selecionar.css);
+@import url(digitar/digitar.css);
+@import url(confirmacao/confirmacao.css);
+@import url(entrada/entrada.css);
+@import url(vincular/vincular.css);
+@import url(ociosa/ociosa.css);
+@import url(status/status.css);

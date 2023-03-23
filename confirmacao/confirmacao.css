@@ -1,0 +1,23 @@
+.container_infos{
+padding-top: 20px;
+width: 100%;
+    
+}
+.infos{
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.titulo{
+    background-color: #2C2F35;
+    padding-left: 20px;
+    border: solid 2px #000000;
+}
+.descricao{
+    background-color: #525567;
+}
+
+.descricao p{
+    padding-left: 30px;
+}

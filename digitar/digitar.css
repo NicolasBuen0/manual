@@ -1,0 +1,94 @@
+.passos{
+    background-color: #1f1f1f;
+    color: #eeeeee;
+}
+
+
+   .linha{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .informe{
+       color: #65687C;
+        padding-top: 10px;
+       
+    }
+      
+    input, .selecionar_linhas{
+        border: solid 1px #C58337;
+        background-color: white;
+        height: 40px;
+    }
+
+
+    .selecionar_linhas{
+        background-color: #65687C;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        border-bottom: solid 0.8px white;
+        display: none;
+    }
+
+
+.container-grid {
+    background: #65687C;
+    max-width: 800px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+  /*   flex: 1; */
+}
+   
+    @media (min-width: 800px) {
+    .container-grid {
+        margin: 0 auto;
+    }
+}
+    .grid{
+        display: grid;
+        text-align: center;
+        gap: 2px;
+        grid-template-columns:repeat(5, 1fr);
+        background-color: #2C2F35;
+    
+       
+    }
+    
+    .grid button{
+        padding: 15px;
+        margin-top: 4px;
+        color: white;
+        background-color: #525567;
+        
+    }
+    
+    .grid-4 button{
+        grid-column: 2;
+    }
+
+
+    .btn-digitar{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: center;
+        flex: 1;
+      
+    }
+
+    .btn-digitar .btn{
+        margin: 5px;
+        padding: 15px 15px;
+        margin-bottom: 20px;
+        font: 400 1.5rem/1.25 "Roboto", sans-serif;
+    }
+
+
+    @media (max-width: 300px) {
+        .btn-digitar .btn{
+            font: 400 1rem/1.25 "Roboto", sans-serif;
+        }
+    }

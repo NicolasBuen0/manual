@@ -1,0 +1,96 @@
+#status header{
+    background: #475A7B;
+    border-radius:0;
+}
+
+
+
+.status_tipo{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font: 400 1.2rem/1.25 "Roboto", sans-serif;
+
+}
+
+#analitico,#sintetico {
+    width: 50%;
+    text-align: center;
+}
+
+#analitico{
+    background: #81B3F8;
+    color: white;
+
+}
+
+#sintetico{
+  background: #6F6E7E;
+  color: #C2C2DC;
+}
+
+.status_valores{
+    background-color: #81B3F8;
+
+}
+
+.container_status{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+   
+    }
+
+    .container.utilizacoes{
+    background-color: #525567;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    font: 400 1.2rem/1.25 "Roboto", sans-serif;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1.9px solid #2C2F35;
+    
+    }
+
+    .tipos_cabecalho.utilizacoes{
+        background-color: #2C2F35;
+        border-bottom: 1.9px solid white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #C2C2DC;
+        border-radius: 8px 8px 0 0;
+   
+    }
+
+    .tipos_cabecalho.utilizacoes.total{
+        border-radius: 0px 0px 8px 8px;
+   
+    }
+
+    .container.utilizacoes :first-child{
+        justify-self: flex-start;
+        }
+
+    .container.utilizacoes :nth-child(2),.container.utilizacoes :nth-child(3){
+        justify-self: center;
+        }
+
+        
+        .mais{
+            width: 20px;
+            margin-left: 5px;
+        }
+        
+        .mais_deco{
+            display: flex;
+            align-items: center;   
+        }
+
+    .total span:nth-last-child(1){
+        padding-right: 20px;  
+    }
+
+  

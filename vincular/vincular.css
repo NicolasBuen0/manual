@@ -1,0 +1,18 @@
+.btn.vincular {
+    display: flex;
+    text-align: center;
+    
+
+}
+
+#vincular main{
+    gap: 40px
+}
+
+#vincular .passo{
+    opacity: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+

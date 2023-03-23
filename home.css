@@ -1,0 +1,100 @@
+
+main{
+  position: relative;
+}
+
+.passo{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-color: #1f1f1f;
+    color: #eeeeee;
+    padding: 40px;
+    left: 0;
+    right: 0;
+}
+
+.passo.ativo{
+    animation: show 0.8s forwards;
+}
+
+
+.passo p:first-child{
+    padding-bottom: 20px;
+}
+
+#operacao {
+    color: #65687C;
+    display: block;
+}
+
+.text_red {
+    display: flex;
+    justify-content: center;
+    color: #D44D4F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.informacoes_ccit {
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background-color: #E0DFE2;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 300px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+@media (max-width: 320px) {
+    .informacoes_ccit {
+        padding: 10px 0px;
+        box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 100px;
+       
+    }
+    
+}
+
+.especificacao {
+    padding-left: 5px;
+    display: inline;
+    white-space: nowrap;
+
+
+}
+
+.apresente_cartao {
+    color: #65687C;
+    text-align: center;
+
+}
+
+.apresente_cartao span {
+    display: block;
+}
+
+
+
+.decoracoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
+
+.btn.home{
+    opacity: 0;
+}
+
+.btn.home.ativo{
+    animation: show 2s forwards;
+}
+
+.passos p {
+    padding: 10px;
+}
+

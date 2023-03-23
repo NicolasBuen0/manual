@@ -1,0 +1,28 @@
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .passo{
+    opacity: 1;
+    padding: 20px; 
+  }
+
+
+.cancelar{
+    text-align: center;
+}
+
+@media (max-height: 560px) {
+    #abertura main{
+        justify-content: flex-end;
+        gap: 30px;
+      }
+      .abertura{
+       margin-bottom: 30px;
+      }
+}

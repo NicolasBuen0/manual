@@ -1,0 +1,11 @@
+.configs footer{
+    flex: 1;
+}
+.configs #operacao{
+    margin-bottom: 100px;
+}
+
+.configs .text_red{
+    text-align: center;
+}
+
