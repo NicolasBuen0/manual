@@ -13,7 +13,6 @@ function digitaCampo(event){
     }
 
     else if(elemento === "x"){
-      /* refatorar */
       input.value = "" 
       linhas.style.display="none";
     }
@@ -30,7 +29,7 @@ teclas.forEach((item)=>{
 
 
 linhas.addEventListener("click", ()=>{
-  input.value = "05000";
+  input.value = "05101";
 })
 
 
@@ -38,8 +37,8 @@ linhas.addEventListener("click", ()=>{
 
 
 function verificaCampo(){
-  if(input.value === "05000"){
-    btnConfirmar.setAttribute("href","../confirmacao/confirmacao.html")
+  if(input.value === "05101"){
+    btnConfirmar.setAttribute("href","../confirmacao/confirmacao_remane.html")
   }
 }
 

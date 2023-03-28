@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="abertura.css">
+    <link rel="stylesheet" href="../abertura/abertura.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,31 +15,35 @@
     <title>Manual</title>
 </head>
 
-<body id="abertura">
+<body id="ociosa" class="fechar_ociosa">
     <header class="container font-1-l ">
         <span>10:53</span>
         <span>06.10.22</span>
     </header>
     <main class="container conteudo">
         <div>
-            <a class="btn abertura" href="../selecionar/selecionar.html">Abertura de linha</a>
+            <a class="btn ociosa" href="../status/status.html">Fechar Viagem</a>
+        </div>
+        <div>
+            <a class="btn ociosa" href="#">Saída Mot/Cob</a>
+        </div>
+        <div>
+            <a class="btn ociosa" href="#">Saída Rendição</a>
         </div>
         <div class="passo font-2-l">
-            <p>Agora precisamos informar ao validador qual linha iremos abrir.
-
-               
+            <p>Selecione "Fechar Viagem".               
             </p>
-                <p>   Selecione "abertura de linha".
-                    
-                </p>
         </div>
-        <a class="btn cancelar" href="../">Cancelar</a>
+        <div class="container_btn">
+            <a class="btn cancelar" href="../entrada/entrada.html">Mais opções</a>
+        <a class="btn cancelar" href="../entrada/entrada.html">Cancelar</a>
+        </div>
     </main>
     <footer class="container">
         
     </footer>
  
-  <!--   <script src="js/script.js"></script> -->
+    <script src="../js/entrada.js"></script>
 </body>
 
 </html>

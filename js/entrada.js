@@ -6,7 +6,7 @@ const passo = document.querySelector(".passo");
 
 setTimeout(()=>{
   passo.classList.add("ativo")
-}, 1500)
+}, 1000)
 
 setTimeout(()=>{
   btnHome.classList.add("ativo")
