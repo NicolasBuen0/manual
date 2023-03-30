@@ -133,11 +133,11 @@ grid-template-columns: 1fr 1fr;
 
 @media (max-width: 320px) {
     #ociosa .btn {
-        font: 400 1.2rem/1.25 "Roboto", sans-serif;
+        font: 400 1.1rem/1.25 "Roboto", sans-serif;
     }
     
     #ociosa main{
-       padding-top: 50px; 
+       padding-top: 100px; 
     }
 
 
