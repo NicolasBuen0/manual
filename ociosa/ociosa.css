@@ -7,12 +7,18 @@
 
 #ociosa main{
     gap: 20px;
+   
+  
 }
 
 #ociosa .passo{
     opacity: 0;
     padding-bottom: 0px;
     text-align: center;
+}
+
+.passo p:first-child {
+    padding-bottom: 0px;
 }
 
 
@@ -123,3 +129,16 @@ grid-template-columns: 1fr 1fr;
     padding: 15px 30px;
 }
 
+
+
+@media (max-width: 320px) {
+    #ociosa .btn {
+        font: 400 1.2rem/1.25 "Roboto", sans-serif;
+    }
+    
+    #ociosa main{
+       padding-top: 50px; 
+    }
+
+
+}
